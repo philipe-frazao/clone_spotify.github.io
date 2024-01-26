@@ -23,11 +23,11 @@
     align-items: center;
 }
 
-.header__navegation .navegation.arrow-left{
+.header__navegation .navegation .arrow-left{
     margin-right: 1.25rem;
 }
 
-.arrow-left, arrow-right{
+.arrow-left, .arrow-right{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -68,9 +68,11 @@
     padding: 0px 100px 0 12px;
     color: #fff;
     text-overflow: ellipsis;
+    outline: none;
+    text-overflow: ellipsis;
     overflow: hidden;
     white-space: nowrap;
-    outline: none;
+    
 }
 
 .header-login .subscribe{
@@ -88,4 +90,17 @@
     font-size: 16px;
     font-weight: 700;
     border-radius: 40px;
+}
+
+.header__search:hover{
+    border: 1px solid #fff;
+}
+
+.subscribe:hover{
+    transform: scale(1.04);
+    color: #fff;
+}
+
+.login:hover{
+    transform: scale(1.04);
 }
